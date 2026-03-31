@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# env
+.env
+client/.env
+server/.env
+
+# build
+dist/
+build/
+client/dist/
+server/dist/
+
+# local db/runtime
+server/.mongodb/
+*.lock
+
+# logs/os/editor
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
